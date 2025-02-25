@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.box {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.merge {
+    grid-column: span 2; /* Merging two columns */
+}
